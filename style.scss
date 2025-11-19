@@ -17,91 +17,95 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.box-header {
-  margin-top: 30px;
-  width: 80%;
-  height: 10vh;
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
-  img {
-    width: 15%;
-  }
-  nav {
-    width: 40%;
+
+  .box-header {
+    margin-top: 30px;
+    width: 80%;
     height: 10vh;
+    border-radius: 50px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    background: linear-gradient(to right, #4247a2 0%, #52b095 100%);
+    img {
+      width: 15%;
+    }
+    nav {
+      width: 40%;
+      height: 10vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
 
-    a {
-      color: white;
-      font-family: "Roboto", sans-serif;
+      a {
+        color: white;
+        font-family: "Roboto", sans-serif;
+      }
     }
   }
-}
 
-.box-banner {
-  width: 80%;
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  .box-titulo {
-    height: 60vh;
-    h2 {
-      width: 80%;
-      font-size: 2.7rem;
-      font-weight: bold;
-      background: linear-gradient(to right, #1173d4 0%, #33cc73 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      color: transparent;
-      font-weight: bold;
-    }
-    p {
-      width: 40vw;
-      height: 20vh;
-      font-size: 1.8rem;
-      margin-top: 20px;
-    }
-    .button {
-      .btnazul {
-        width: 20vw;
-        height: 7.5vh;
-        margin: 0 1.2rem;
-        margin-left: 0;
-        border-radius: 10px;
-        font-size: 0.9rem;
-        color: #fff;
-        background-color: #1173d4;
-        border: solid #1173d4;
+  .box-banner {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .box-titulo {
+      height: 60vh;
+      h2 {
+        width: 80%;
+        font-size: 2.7rem;
+        font-weight: bold;
+        background: linear-gradient(to right, #1173d4 0%, #33cc73 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent;
+        font-weight: bold;
       }
-      .btn {
-        border: solid 1.4px #1173d4;
-        width: 12vw;
-        height: 7.5vh;
-        background-color: #fff;
-        color: #1173d4;
-        border-radius: 10px;
-        font-size: 0.9rem;
+      p {
+        width: 40vw;
+        height: 20vh;
+        font-size: 1.8rem;
+        margin-top: 20px;
+      }
+      .button {
+        display: flex;
+        gap: 1rem;
+        .btnazul {
+          width: 20vw;
+          height: 7.5vh;
+          margin: 0 1.2rem;
+          margin-left: 0;
+          border-radius: 10px;
+          font-size: 0.9rem;
+          color: #fff;
+          background-color: #1173d4;
+          border: solid #1173d4;
+        }
+        .btn {
+          border: solid 1.4px #1173d4;
+          width: 12vw;
+          height: 7.5vh;
+          background-color: #fff;
+          color: #1173d4;
+          border-radius: 10px;
+          font-size: 0.9rem;
+        }
       }
     }
   }
 }
 .box-bottom {
   width: auto;
-  height: 87vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
   padding-top: 8vh;
   background-color: #f8f9fa;
+
   .title {
     text-align: center;
     h3 {
@@ -124,42 +128,44 @@ header {
       text-align: center;
     }
   }
+}
 
-  .main-cards {
-    padding: auto;
-    text-align: center;
-    padding-top: 8vh;
-    .card {
-      background-color: white;
-      width: 22vw;
-      height: auto;
-      min-height: 34vh;
-      margin: 25px;
-      border-radius: 10px;
-      box-shadow: 0px 0px 10px 0px #00000040;
-      display: inline-block;
-      vertical-align: top;
+.main-cards {
+  padding: auto;
+  text-align: center;
+  padding-top: 8vh;
+  .card {
+    background-color: white;
+    width: 200px;
+    height: auto;
+    min-height: 34vh;
+    margin: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #00000040;
+    display: inline-block;
+    vertical-align: top;
 
-      img {
-        padding-block: 20px;
-      }
-      h4 {
-        padding-bottom: 13px;
-        font-size: 1.2rem;
-      }
-      p {
-        font-size: 1rem;
-        padding: 0 20px;
-        display: block;
-      }
+    img {
+      padding-block: 20px;
+    }
+    h4 {
+      padding-bottom: 13px;
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: 1rem;
+      padding: 0 20px;
+      display: block;
     }
   }
 }
+
 .box-bottom2 {
   width: auto;
-  height: 187vh;
+  height: auto;
   background-color: #fdefef;
   padding-top: 8vh;
+
   .title2 {
     text-align: center;
     h5 {
@@ -191,11 +197,11 @@ header {
   flex-wrap: wrap;
   box-sizing: border-box;
   border: none;
+
   .card2 {
     position: relative;
     background-color: #ffffff;
-    width: 20vw;
-    height: auto;
+    width: 250px;
     min-height: 68vh;
     margin: 25px;
     border-radius: 20px;
@@ -233,6 +239,7 @@ header {
   height: 187vh;
   background-color: #f8f9fa;
   padding-top: 8vh;
+  height: auto;
 }
 .title3 {
   text-align: center;
@@ -263,8 +270,8 @@ header {
   .card3 {
     position: relative;
     background-color: #ffffff;
-    width: 200px;
-    height: 68vh;
+    width: 250px;
+    min-height: 68vh;
     margin: 25px;
     border-radius: 20px;
     display: inline-block;
@@ -301,6 +308,7 @@ header {
 }
 .box-bottom4 {
   background-color: white;
+  height: auto;
   .title4 {
     text-align: center;
     font-size: 2.7rem;
@@ -322,15 +330,15 @@ header {
   box-sizing: border-box;
   .card4 {
     position: relative;
-    width: 40vw;
-    height: 25vh;
+    width: 450px;
+    height: 200px;
     border-radius: 10px;
     display: inline-block;
     flex-direction: column;
     margin: 15px 40px;
     text-align: center;
     p {
-      font-size: 1rem;
+      font-size: 1.4rem;
       text-align: center;
       padding-top: 2vh;
       padding-left: 2vh;
@@ -434,10 +442,11 @@ header {
   width: 100%;
   overflow-x: hidden;
   margin-top: 40px;
+  height: auto;
 }
 .box-linefooter {
-  text-align: left;
-  width: 30%;
+  text-align: center;
+  width: 28vw;
 }
 .titulolink {
   color: white;
@@ -523,12 +532,12 @@ header {
     text-align: center;
   }
 }
+
 @media (max-width: 1024px) {
   header {
     background-attachment: scroll;
     background-size: auto;
     background-position: right;
-    background-size: contain;
   }
   .box-header {
     margin-right: 10%;
@@ -560,14 +569,229 @@ header {
   }
 }
 
-@media (max-width: 956px) {
-  .box-bottom3 {
-    height: auto;
+@media (max-width: 698px) {
+  .box-banner {
+    .box-titulo {
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+      text-align: center;
+      font-size: 2.7rem;
+      h2 {
+        text-align: center;
+        margin: 12px;
+
+        width: 120%;
+      }
+      p {
+        width: 90%;
+        margin: 0 auto 20px;
+        font-size: 1.7rem;
+        text-align: center;
+        margin-bottom: 60px;
+      }
+    }
   }
 
-  .card3 {
-    border: solid 2px blue;
+  .box-bottom {
+    .title {
+      h3 {
+        font-size: 2rem;
+      }
+      p {
+        width: 80%;
+        font-size: 1rem;
+      }
+    }
+  }
 
+  .main-cards {
+    .card {
+      flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 514px) {
+  .interface {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .box-linefooter {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+  }
+
+  .logovivabem {
+    margin: 0;
+    padding: 0;
+
+    img {
+      margin-top: 20px;
+    }
+  }
+
+  .links-footer {
+    min-height: auto;
     height: auto;
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+
+  .text {
+    min-height: auto;
+    height: auto;
+    margin: 10px 0 20px 0;
+    text-align: center;
+  }
+
+  .titulolink,
+  .titulo2,
+  .titulo3 {
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .text p,
+  .links-footer a {
+    line-height: 1.5rem;
+    display: block;
+    text-align: center;
+  }
+
+  .linefooter2 {
+    background-color: #313461;
+    margin-top: 0;
+    text-align: center;
+
+    .borda-footer {
+      border-top: solid 1px #9fabbc;
+      height: auto;
+      padding: 40px 20px;
+    }
+
+    p {
+      color: white;
+      text-align: center;
+      padding-top: 20%;
+    }
+  }
+}
+
+@media (max-width: 443px) {
+  header {
+    background: none;
+    background-attachment: scroll;
+    height: auto;
+
+    .box-header {
+      width: 90%;
+      margin-left: 15%;
+
+      img {
+        width: 25%;
+      }
+
+      nav {
+        width: auto;
+        margin: 0;
+
+        a {
+          width: 110px;
+          font-size: 0.8rem;
+          white-space: nowrap;
+          overflow: hidden;
+        }
+      }
+    }
+
+    .box-banner {
+      .box-titulo {
+        p {
+          width: 120%;
+          margin-bottom: 20px;
+          font-size: 1.5rem;
+          text-align: center;
+        }
+
+        h2 {
+          font-size: 2.7rem;
+          text-align: center;
+          margin: 12px;
+
+          width: 120%;
+        }
+        .button {
+          font-size: 1rem;
+
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          width: 130%;
+
+          .btnazul {
+            width: 140px;
+          }
+
+          .btn {
+            width: 140px;
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    .box-bottom2 {
+      width: 130%;
+    }
+    .box-bottom {
+      height: auto;
+      margin-top: 80px;
+      width: 130%;
+      .title {
+        h3 {
+          margin-top: 80px;
+          font-size: 2rem;
+        }
+
+        p {
+          height: auto;
+        }
+      }
+    }
+
+    .box-bottom4 {
+      .title4 {
+        font-size: 1.7rem;
+      }
+
+      .maincards4 {
+        .card4 {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+
+    .box-bottom3 {
+      width: 130%;
+      .title3 {
+        font-size: 1.2rem;
+        width: 100%;
+      }
+    }
+  }
+  .interface {
+    width: 140%;
+  }
+  .linefooter2 {
+    width: 140%;
   }
 }
